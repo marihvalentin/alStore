@@ -11,16 +11,13 @@
 }
 
 .cabecalho {
-    background-color: #00cc99;
     grid-area: cabecalho;
 }
  
 .main {
-    background-color: #ff8080;
     grid-column: main;
 }
 
 .rodape {
-    background-color: #0099ff;
     grid-area: rodape;
 }
