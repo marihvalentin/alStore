@@ -1,0 +1,26 @@
+.app {
+    background: hsl(0, 0%, 95%);
+    display: grid;  
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: 
+        "cabecalho"
+        "main"
+        "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 50px 100vh auto;
+}
+
+.cabecalho {
+    background-color: #00cc99;
+    grid-area: cabecalho;
+}
+ 
+.main {
+    background-color: #ff8080;
+    grid-column: main;
+}
+
+.rodape {
+    background-color: #0099ff;
+    grid-area: rodape;
+}
