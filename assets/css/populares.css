@@ -1,5 +1,5 @@
 .populares {
-    padding: 3rem 2rem;
+    padding: 3rem 0;
 }
 
 .populares__conteudo {
@@ -72,7 +72,7 @@
 }
 
 .populares__icone{
-    margin-right: 25rem;
+    margin-right: .25rem;
 }
 
 .populares__botao {
